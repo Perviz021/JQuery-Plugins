@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 5000px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.inner {
+  background-color: teal;
+  border: 1px solid rgb(94, 91, 67);
+  color: #fff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainSlider .owl-nav {
+  text-align: center;
+  font-size: 3em;
+}
+#mainSlider .owl-nav button {
+  margin-right: 20px;
+}
+
+#mainSlider .owl-dots {
+  text-align: center;
+}
+#mainSlider .owl-dot span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: lightgray;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+#mainSlider .owl-dot.active span {
+  background-color: lightskyblue;
+}
+
+/***
+/*** FLIP PLUGIN
+***/
+
+/* #card {
+  height: 300px;
+  color: #fff;
+  text-align: center;
+  line-height: 300px;
+  font-size: 3em;
+  margin-top: 50px;
+} */
+
+.front {
+  background-color: coral;
+}
+.back {
+  background-color: dodgerblue;
+}
+
+/* FLIP2 */
+.wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#card.flip2 {
+  color: #fff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: calc(100% / 7.4);
+}
+
+#card.flip2 .div1,
+#card.flip2 .div2 {
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.div1 {
+  background-color: rgb(80, 112, 255);
+}
+.div2 {
+  background-color: rgb(255, 30, 30);
+}
